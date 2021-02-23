@@ -3707,13 +3707,19 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
+				padding: 7em 5em 5em 5em ;
 				height: auto;
 				min-height: 0;
 			}
 
 				#banner h2 {
-					font-size: 1.25em;
+					/* width: 75%; */
+					font-size: 0.85em;
+				}
+
+				#banner p {
+					/* width: 75%; */
+					font-size: 0.675em;
 				}
 
 				#banner br {
@@ -3725,6 +3731,44 @@ input, select, textarea {
 				}
 
 		}
+
+
+		@media screen and (min-width:411px) and (max-width:412px)  {
+
+			#banner {
+				padding: 7em 5em 5em 5em ;
+				height: auto;
+				min-height: 0;
+			}
+
+				#banner h2 {
+					/* width: 75%; */
+					font-size: 0.85em;
+				}
+
+				#banner p {
+					/* width: 75%; */
+					font-size: 0.55em;
+				}
+
+
+				#banner br {
+					display: none;
+				}
+
+				#banner .more {
+					display: none;
+				}
+
+		}
+
+
+
+
+
+
+
+
 
 	body.is-preload #banner h2 {
 		-moz-transform: scale(0.95);
